@@ -1,4 +1,4 @@
-html, body, head
+html, body
 {
   margin: 0px 0px 0px 0px;
   font-family: fantasy;
@@ -7,7 +7,7 @@ html, body, head
 
 .title
 {
-  font-size: 68px;
+  font-size: 48px;
   color: #FF7A5A;
   font-style: italic;
   text-align: center;
@@ -15,17 +15,30 @@ html, body, head
 
 .point
 {
-  font-size: 38px;
-  color:#FFB85F;
-  text-align:center;
+  color: #FFB85F;
+  font-size: 28px;
+}
+
+.subpoint
+{
+  color: #FFB86F;
+  font-size:20px;
+}
+
+.subpoint, .point
+{
   text-decoration: none;
+  text-align:center;
+}
+
+.image_border
+{
+  border: 2px dashed #FFb89F;
 }
 
 .bar
 {
-  margin: 0px 0px 0px 0px;
-  top:0;
+  top: 0;
   position: absolute;
-  width:100%;
-  color:#FFB85F;
+  color: #FFB85F;
 }
